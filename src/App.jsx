@@ -1,9 +1,7 @@
+import Layout from './components/layout/Layout';
+
 function App() {
-  return (
-    <div className='App'>
-      <h1 className='center'>Marioplan</h1>
-    </div>
-  );
+  return <Layout></Layout>;
 }
 
 export default App;
